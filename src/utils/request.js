@@ -19,7 +19,7 @@ const HttpRequest = axios.create({
   timeout: TIMEOUT,
   header: {
     'user-token': token,
-      ...conmomPrams
+    ...conmomPrams
   }
 });
 

@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import { setToken } from '@/utils/common';
+import { setToken } from "@/utils/common";
 export default {
   name: "Login",
   methods: {
@@ -14,6 +14,7 @@ export default {
       // window.localStorage.setItem('nideShopUser', 'data.mobile');
       setToken('2121212');
       this.$router.push({ name: 'index' });
+      debugger;
     }
   }
 };
